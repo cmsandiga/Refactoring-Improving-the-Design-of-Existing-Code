@@ -33,7 +33,7 @@ public class Customer {
 			
 			Rental each = (Rental) rentals.nextElement();
 
-			thisAmount = amountFor(each);
+			thisAmount = each.getCharge();
 			frequentRenterPoint++;
 
 			if (each.getMovie().getPriceCode() == Movie.NEW_RELEASE && each.getDaysRented() > 1)
@@ -48,7 +48,4 @@ public class Customer {
 		return result;
 	}
 
-	private double amountFor(Rental aRental) {
-		return aRental.getCharge(aRental);
-	}
 }
