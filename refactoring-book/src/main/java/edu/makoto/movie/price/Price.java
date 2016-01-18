@@ -1,4 +1,4 @@
-package edu.makoto.price;
+package edu.makoto.movie.price;
 
 
 public abstract class Price {

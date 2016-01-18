@@ -1,6 +1,6 @@
-package edu.makoto;
+package edu.makoto.movie;
 
-import edu.makoto.price.*;
+import edu.makoto.movie.price.*;
 
 public class Movie {
 

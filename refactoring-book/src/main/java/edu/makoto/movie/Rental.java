@@ -1,4 +1,4 @@
-package edu.makoto;
+package edu.makoto.movie;
 
 public class Rental {
 	private Movie _movie;

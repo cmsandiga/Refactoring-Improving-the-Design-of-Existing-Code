@@ -1,6 +1,6 @@
-package edu.makoto.price;
+package edu.makoto.movie.price;
 
-import edu.makoto.Movie;
+import edu.makoto.movie.Movie;
 
 public class RegularPrice extends Price {
 

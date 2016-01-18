@@ -1,4 +1,4 @@
-package edu.makoto;
+package edu.makoto.movie;
 
 import java.util.Enumeration;
 import java.util.Vector;
